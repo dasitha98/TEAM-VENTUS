@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontAddress"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="logo_image"
+        android:src="@drawable/paypic"/>
+
+    <TextView
+        android:id="@+id/logoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:transitionName="logo_text"
+        android:text="Address"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/sloganName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save your all customer address"
+        android:textSize="18sp"
+        android:transitionName="logo_descri"/>
+
+    <ListView
+        android:id="@+id/lst1"
+        android:layout_width="282dp"
+        android:layout_height="267dp"
+
+        />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:background="#fff"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:transitionName="button_tran"/>
+    <Button
+        android:id="@+id/signup_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="Add a New Address"
+        android:textColor="#fff"
+        android:layout_gravity="right"
+        android:elevation="0dp"
+        android:transitionName="login_signUp_tran"/>
+
+
+
+</LinearLayout>

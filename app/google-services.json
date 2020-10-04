@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141782996785",
+    "firebase_url": "https://library-49ddb.firebaseio.com",
+    "project_id": "library-49ddb",
+    "storage_bucket": "library-49ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141782996785:android:cbf3a0792ed8596f1b0210",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141782996785-shtah2ib5up5ik8i9g2m04b9kumvnlfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvTOfUspUAaDFtO3AdEMF8gufEncjPtRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141782996785-shtah2ib5up5ik8i9g2m04b9kumvnlfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
